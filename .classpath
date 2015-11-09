@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-aop-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-aspects-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-beans-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-build-src-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-context-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-context-support-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-core-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-expression-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-framework-bom-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-instrument-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-instrument-tomcat-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-jdbc-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-jms-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-messaging-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-orm-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-oxm-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-test-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-tx-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-web-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-webmvc-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-webmvc-portlet-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/spring-websocket-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Users/vcojocaru/lib/slf4j-1.7.7/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+    <bean id="test" class="com.tutorialspoint.test.Test">
+    	<constructor-arg ref="person" />
+    	<constructor-arg value="Ma numesc"/>
+    </bean>
+    <bean id="person" class="com.tutorialspoint.test.Person">
+    	<property name="name" value="Viorel"/>
+    	<property name="surname" value="Cojocaru"/>
+    	<property name="age" value="30"/>
+    </bean>
+</beans>

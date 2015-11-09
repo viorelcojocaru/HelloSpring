@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="stefan" class="com.tutorialspoint.moldova.Stefan">
+		<property name="camping" ref="turkCamping" />
+	</bean>
+	
+	<bean id="mViteazu" class="com.tutorialspoint.moldova.MViteazu">
+		<property name="camping" ref="russianCamping" />
+	</bean>
+
+	<bean id="turkCamping" class="com.tutorialspoint.moldova.campingImpl.TurkCampaign" />
+	<bean id="russianCamping" class="com.tutorialspoint.moldova.campingImpl.RussianCamping" />
+
+</beans>   

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+	<bean id="myCollection" class="com.tutorialspoint.mycollection.MyCollection">
+		<property name="addressList">
+			<list>	
+			<ref bean="address1"/>	
+			<ref bean="address2"/>		
+				<value>Moldova</value>
+				<value>Ucraina</value>
+				<value>SUA</value>
+			</list>
+		</property>
+		<property name="addressSet">
+			<set>
+				<value>Moldova</value>
+				<value>SUA</value>
+				<value>Ucraina</value>
+				<value>SUA</value>
+			</set>
+		</property>
+		<property name="addressMap">
+			<map>
+				<entry key="1" value="Moldova"/>
+				<entry key="2" value="SUA"/>
+				<entry key="3" value="Ucraina"/>
+				<entry key="4" value="Moldova"/>
+			</map>
+		</property>
+		<property name="addressProperties">
+        <props>
+           <prop key="one">Moldova</prop>
+           <prop key="two">Ucraina</prop>
+           <prop key="three">USA</prop>
+           <prop key="four">USA</prop>
+        </props>
+      </property>
+	</bean>
+	<bean id="address1" class="com.tutorialspoint.mycollection.Address">
+		<property name="address1" value="PMR"/>
+		
+	</bean>
+    <bean id="address2" class="com.tutorialspoint.mycollection.Address">		
+		<property name="address2" value="PMRT"/>
+	</bean>
+</beans>
+    

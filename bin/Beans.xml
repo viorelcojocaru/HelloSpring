@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="helloWorld" class="com.tutorialspoint.HelloWorld"
+		init-method="init" destroy-method="destroy">
+		<!-- <constructor-arg value="Salut Viorel" "/> -->
+		<property name="message" value="Salut" />
+		<property name="message1" value="Salut primul" />
+		<property name="message2" value="Salut al doilea" />
+		<property name="message3" value="Salut al treilea" />
+	</bean>
+
+	<bean class="com.tutorialspoint.InitHelloWorld" />
+
+	<bean id="beanTeamplate" abstract="true">
+		<property name="message" value="Salut" />
+		<property name="message1" value="Hello World!" />
+		<property name="message2" value="Hello Second World!" />
+		<property name="message3" value="Namaste India!" />
+	</bean>
+
+	<bean id="helloIndia" class="com.tutorialspoint.HelloIndia"
+		parent="helloWorld">
+
+		<property name="message1" value="HelloIndia" />
+		<property name="message3" value="Nameaste India" />
+	</bean>
+
+	<bean id="textEditor" class="com.tutorialspoint.texteditor.TextEditor">
+		<property name="spellChecker">
+			<bean id="spellChecker" class="com.tutorialspoint.texteditor.SpellChecker" />
+		</property>
+	</bean>
+
+	<bean id="cStartEventHandler" class="com.tutorialspoint.CStartEventHandler" />
+	<bean id="cStopEventHandler" class="com.tutorialspoint.CStopEventHandler" />
+
+</beans>
